@@ -6,11 +6,25 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - DiscordBot</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>18</maven.compiler.target>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>net.dv8tion</groupId>
       <artifactId>JDA</artifactId>
       <version>5.0.0-beta.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20210307</version>
     </dependency>
   </dependencies>
 </project>
